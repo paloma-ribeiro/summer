@@ -1,0 +1,11 @@
+version: "3.7"
+services:
+  icecream:
+    build: ./icecream
+    ports:
+      - "8585:8585"
+    networks:
+      - summer-network
+
+networks:
+  summer-network:
